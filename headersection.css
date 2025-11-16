@@ -1,0 +1,98 @@
+body {
+    font-family: helvetica;
+
+}
+
+.intro-section {
+    display: grid;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: #fffef8;
+    margin:0px;
+    height: 500px
+}
+
+.title-with-line{
+    display: grid;
+    grid-template-columns: 1fr, 10px;
+
+
+}
+
+.english-title-box {
+    flex: 1;
+    flex-shrink: 0;
+    width: 180px;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+}
+.junze {
+    font-size: 70.5px;
+    color: #413010;
+    margin-bottom: 30px;
+    
+
+}
+
+.remedial {
+    font-size: 57.5px;
+    color: #827167;
+    margin-top: -10px;
+}
+
+.massage {
+    font-size: 57.5px;
+    color: #827167;
+    margin-top: -50px;
+}
+
+.vert-line{
+    
+    height: 300px;
+    position: absolute;
+    z-index:10;
+}
+
+.chinese-title-box {
+    width: 200px;
+    flex: 1;
+    flex-shrink: 0;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 60px;
+
+}
+
+.chinese-title1, .chinese-title2 {
+    font-size: 90.8px;
+    color: #c5983f;
+    opacity: 0.5;
+    margin:0px;
+
+}
+
+.chinese-title2 {
+    margin-top: -20px;
+}
+.chinese-sub-title {
+    font-size: 26.8px;
+    color: #d0b069;
+    opacity: 0.5;
+    margin:0px;
+
+}
+
+.shop-front {
+    width:100%;
+    flex: 1;
+    flex-shrink: 0;
+    border-radius: 40px;
+    position: right;
+    margin-top: 80px;
+    margin-bottom: 160px;
+    margin-left: 0px;
+    margin-right: -20px;
+}
