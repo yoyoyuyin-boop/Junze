@@ -13,26 +13,30 @@
     align-items: center;
     justify-content: center;
     opacity: 0.9;
-    margin-right: 10px;
+    margin-right: 10%;
+    font-weight: 310;
+
     
 }
 .junze {
     font-size: 75.5px;
     color: #413010;
     margin-bottom: 40px;
-
+ 
 }
 
 .remedial {
     font-size: 57.5px;
     color: #827167;
     margin-top: -10px;
+
 }
 
 .massage {
     font-size: 57.5px;
     color: #827167;
     margin-top: -50px;
+    opacity: 0.8;
 }
 
 .vert-line{
@@ -40,8 +44,9 @@
     position: absolute;
     z-index:10;
     top:15px;
-    left: -40px;
-    opacity: 0.9;
+    left: -26%;
+    opacity: 0.8;
+
 }
 
 .chinese-title-box {
@@ -50,22 +55,31 @@
     align-items: center;
     justify-content: center;
     margin-top: 60px;
-    margin-left: 70px;
+    margin-left: 20%;
     position: relative;
+    font-weight: 350;
 
 }
 
-.chinese-title1, .chinese-title2 {
+.chinese-title1 {
+    font-size: 95.8px;
+    color: #bc913a;
+    opacity: 0.68;
+    margin:0px;
+    
+}
+
+
+.chinese-title2 {
     font-size: 95.8px;
     color: #c5983f;
     opacity: 0.58;
     margin:0px;
-
-}
-
-.chinese-title2 {
     margin-top: -20px;
+
 }
+
+
 .chinese-sub-title {
     font-size: 30.8px;
     color: #d0b069;
@@ -78,16 +92,17 @@
     display: flex;
     align-items: center; 
     justify-content: flex-end;
-    height: 260px;
-    margin-top: 100px;
-    margin-right: -20px;
+    max-height: 270px;
+    margin-top: 22%;
+    margin-bottom: 15%;
+    margin-right: -30px; 
 
 }
 
 .shop-front {
-    border-radius: 20px;
+    border-radius: 10px;
     max-width: 100%;
-   
+    box-shadow: 3px 4px 5px rgb(188, 188, 188);
 }
 
 
@@ -97,6 +112,7 @@
     background-image: linear-gradient(to right, #9ba44d,#559628 );
     position:relative;
     margin-right: -20px;
+     box-shadow: 5px 6px 5px rgb(188, 188, 188);
 }
 
 .banner-left {
@@ -107,6 +123,8 @@
     margin-left: -35%;
     margin-top: 6px;
     line-height: 2;
+    font-weight: 300;
+
 }
 
 
@@ -117,18 +135,19 @@
     background-color: transparent;
     border-color: transparent;
     color: white;
+    font-weight: 300;
 }
 .banner-right:hover {
     cursor: pointer;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .intro-section {
         grid-template-columns: 1fr 1fr;
     }
   
 }
-@media (min-width: 801px) {
+@media (min-width: 1001px) {
     .intro-section {
         grid-template-columns: 1fr 1fr 1fr;
     }
