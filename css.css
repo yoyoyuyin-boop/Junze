@@ -1,69 +1,18 @@
 body {
     font-family: helvetica;
     display: grid;
-    grid-template-rows: 1ft 1ft 1ft;
+    grid-template-rows: 1ft 1ft 1ft 1ft 1ft;
 }
 
-.bio-section {
-
-    display: grid;
+.treatment-section {
+    display: flex;
     justify-content: space-between;
     background-color: #fffef8;
-    grid-template-columns: 300px 1fr 1fr;
-    height: 550px;
-    font-size: 15px;
+    flex-direction: column;
+    height: 600px;
+    font-size: 30px;
     color: rgb(52, 52, 52);
-
-}
-.bio-pic-name{
-    margin-top: 130px;
-    position: relative;
-
-
-}
-
-.name{
-    position: relative;
-    bottom: 375px;
-    text-align: right;
-    margin-right: 20px;
-    font-size: 20px;
-
-}
-
-.bio-pic {
-    display: flex;
-    align-items: center; 
-    justify-content: flex-start;
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    object-position: center;
-    margin-top: 30px;
-    border-radius: 20px;
-    margin-left: -20px;
-
-}
-
-.bio-eng {
-    margin: 160px 20px 0px 20px;
-    text-align: right;
-}
-
-.vert-line2{
-    height: 300px;
-    position: absolute;
-    z-index:10;
-    opacity: 0.9;
-    left: -30px;
+    box-shadow: -8px -10px 5px rgb(188, 188, 188);
 }
 
 
-.bio-chinese {
-    margin-top: 160px;
-    margin-left: 40px;
-    text-align: left;
-    font-size: 18px;
-    color: #5b4b31;
-    position: relative;
-}

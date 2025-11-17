@@ -1,0 +1,103 @@
+.bio-section {
+
+    display: grid;
+    justify-content: space-between;
+    background-color: #fffef8;
+    grid-template-columns: 1fr 1.5fr 1.5fr;
+    height: 550px;
+    font-size: 15px;
+    color: rgb(52, 52, 52);
+    box-shadow: 8px 6px 5px rgb(188, 188, 188);
+    
+}
+
+.bio-pic-name{
+    margin-top: 130px;
+    position: relative;
+
+
+}
+
+.name{
+    position: absolute;
+    top: -8%;
+    text-align: left;
+    font-size: 20px;
+    color: #5b4b31;
+    font-weight: 330;
+    margin-left: 45%;
+
+}
+
+.bio-pic {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    max-width: 75%;
+    min-width: 290px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 25px;
+    border-radius: 15px;
+    margin-left: -20px;
+    opacity: 0.85;
+    box-shadow: 5px 6px 5px rgb(188, 188, 188);
+}
+
+.bio-eng {
+    margin: 160px 15px 0px 8px;
+    text-align: right;
+    font-weight: 350;
+    opacity: 0.93;
+    font-size: 17px;
+
+}
+
+.vert-line2{
+    height: 320px;
+    position: absolute;
+    z-index:10;
+    opacity: 0.9;
+    left: -28px;
+}
+
+
+.bio-chinese {
+    margin-top: 160px;
+    margin-left: 35px;
+    text-align: left;
+    font-size: 20px;
+    color: #5b4b31;
+    position: relative;
+    font-weight: 350;
+    opacity: 0.9;
+}
+
+@media (min-width: 751px) and (max-width: 1200px) {
+    .bio-eng, .bio-chinese {
+        font-size: small;
+    }
+    .vert-line2 {
+        max-height: 270px;
+    }
+    .bio-pic {
+        min-width: 250px;
+    }
+
+    
+}
+
+@media (max-width: 750px) {
+    .bio-eng, .bio-chinese {
+        font-size: xx-small;
+    }
+
+    .vert-line2 {
+        max-height: 220px;
+    }
+
+    .bio-pic {
+        min-width: 200px;
+    }
+  
+}
