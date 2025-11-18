@@ -1,0 +1,198 @@
+
+.intro-section {
+    display: grid;
+    justify-content: space-between;
+    background-color: #fffef8;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 430px
+}
+
+
+.english-title-box {
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    margin-right: 10%;
+    font-weight: 310;
+
+    
+}
+.junze {
+    font-size: 75.5px;
+    color: #413010;
+    margin-bottom: 40px;
+ 
+}
+
+.remedial {
+    font-size: 57.5px;
+    color: #827167;
+    margin-top: -10px;
+
+}
+
+.massage {
+    font-size: 57.5px;
+    color: #827167;
+    margin-top: -50px;
+    opacity: 0.8;
+}
+
+.vert-line{
+    height: 300px;
+    position: absolute;
+    z-index:10;
+    top:15px;
+    left: -26%;
+    opacity: 0.8;
+
+}
+
+.chinese-title-box {
+    width: 200px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 20%;
+    position: relative;
+    font-weight: 350;
+
+}
+
+.chinese-title1 {
+    font-size: 95.8px;
+    color: #bc913a;
+    opacity: 0.68;
+    margin:0px;
+    
+}
+
+
+.chinese-title2 {
+    font-size: 95.8px;
+    color: #c5983f;
+    opacity: 0.58;
+    margin:0px;
+    margin-top: -20px;
+
+}
+
+
+.chinese-sub-title {
+    font-size: 30.8px;
+    color: #d0b069;
+    opacity: 0.58;
+    margin:0px;
+
+}
+
+.title-pic {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+    max-height: 270px;
+    margin-top: 22%;
+    margin-bottom: 15%;
+    margin-right: -30px; 
+
+}
+
+.shop-front {
+    border-radius: 10px;
+    max-width: 100%;
+    box-shadow: 3px 4px 5px rgb(188, 188, 188);
+}
+
+
+.title-banner {
+    display: flex;
+    height: 70px;
+    background-image: linear-gradient(to right, #9ba44d,#559628 );
+    position:relative;
+    margin-right: -20px;
+    box-shadow: 5px 6px 5px rgb(188, 188, 188);
+}
+
+.banner-left {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    flex: 1;
+    margin-left: -35%;
+    margin-top: 6px;
+    line-height: 2;
+    font-weight: 300;
+
+}
+
+
+.banner-right {
+    position:absolute;
+    right:100px;
+    bottom: 25px;
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    font-weight: 300;
+}
+.banner-right:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    .intro-section {
+        grid-template-columns: 1fr 1fr;
+    }
+  
+}
+@media (min-width: 1001px) {
+    .intro-section {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+    .ititle-banner {
+        grid-template-columns: 1fr 1fr;
+    }
+  
+}
+
+@media (max-width: 550px) {
+    .junze {
+        font-size: 50px;
+        margin-top: 65px;
+    }
+    
+    .remedial, .massage{
+        font-size: 40px;
+        
+    }
+
+    .remedial {
+        margin-top: -8%;
+        
+    }
+
+    .chinese-title1, .chinese-title2 {
+        font-size: 60px;
+
+    }
+
+    .chinese-sub-title {
+        font-size: 15px;
+    }
+    .vert-line{
+
+        height: 180px;
+    }
+
+    .shop-front{
+        opacity: 0;
+    }
+
+
+}
