@@ -1,0 +1,7 @@
+body {
+    font-family: helvetica;
+    display: grid;
+    grid-template-rows: 1fr 1ft 1ft 1ft 1ft 1ft 1ft;
+}
+
+
