@@ -79,6 +79,7 @@
     max-width: 100%;
     min-width: 0;
     padding: 5%;
+    justify-content:center;
     
 }
 
@@ -128,6 +129,7 @@
     cursor:pointer;
     translate: -60%;
     position-area: right center;
+    opacity: 0.9;
 }
 
 .treat-section-body::scroll-button(left) {
@@ -143,11 +145,12 @@
     cursor:pointer;
     position-area: left center;
     translate: 50%;
+    opacity: 0.9;
     
 }
 
 .treat-section-body::scroll-button(left):disabled, .treat-section-body::scroll-button(right):disabled {
-    opacity:0.6;
+    opacity:0.4;
     cursor:auto;
 }
 
@@ -161,7 +164,7 @@
 .treat-eng, .treat-chinese{
     display: flex;
     flex-direction: row;
-    flex: 0 0 30%;
+    flex: 0 0 80%;
     height: 90%;
     background-color: #f7efdc;
     padding: 2%;
@@ -169,11 +172,10 @@
     align-content: center;
     border-radius: 10px;
     scroll-snap-align: start;
-    aspect-ratio: 5 / 3;
     font-weight: 350;
     line-height: 1.3;
     justify-content:center;
-
+    align-items: center;
 }
 
 
@@ -182,7 +184,7 @@
     content: '';
     height: 1em;
     width: 1em;
-    background-color: grey;
+    background-color: rgb(108, 108, 108);
     border-radius: 50%;
 }
 
@@ -195,7 +197,7 @@
     content: '';
     height: 1em;
     width: 1em;
-    background-color: grey;
+    background-color: rgb(108, 108, 108);
     border-radius: 50%;
 }
 
@@ -211,6 +213,7 @@
     gap:1%;
 }
 
+
 @media (min-width: 1100px) and (max-width: 1199px) {
     .treat-title-eng {
         font-size: 40px;
@@ -222,15 +225,7 @@
 }
 
 @media (min-width: 980px) and (max-width: 1099px) {
-    .treat-eng, .treat-chinese{
-    height: 80%;
-    flex: 2;
-    }
-
-    .treat-chinese-text, .treat-eng-text {
-        font-size: 18px;
-    }
-
+    
     
     .treat-title-eng {
         font-size: 40px;
@@ -247,14 +242,7 @@
 
 
 @media (min-width: 800px) and (max-width: 979px) {
-    .treat-eng, .treat-chinese{
-    height: 60%;
     
-    }
-
-    .treat-chinese-text, .treat-eng-text {
-        font-size: 14px;
-    }
 
      .treat-title-eng {
         font-size: 30px;
@@ -272,13 +260,9 @@
 
 
 @media (min-width: 600px) and (max-width: 799px) {
-    .treat-eng, .treat-chinese{
-    height: 45%;
     
-    }
-
     .treat-chinese-text, .treat-eng-text {
-        font-size: 12px;
+       font-size: 16px;
     }
 
 
@@ -294,13 +278,10 @@
 }
 
 @media (max-width: 599px) {
-    .treat-eng, .treat-chinese{
-    height: 40%;
     
-    }
 
     .treat-chinese-text, .treat-eng-text {
-        font-size: 10px;
+        font-size: 14px;
     }
 
    
@@ -313,11 +294,11 @@
     }
 
     .treat-section-body::scroll-button(right) {
-        translate: -80%;
+        translate: -100%;
     }
 
     .treat-section-body::scroll-button(left) {
-        translate: 80%;
+        translate: 100%;
     }
 
 
