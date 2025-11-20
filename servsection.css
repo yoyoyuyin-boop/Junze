@@ -60,9 +60,9 @@
 
 .services a{
     height: 20px;
-    width: 75%;
+    width: 70%;
     padding: 20% 5% 40% 5%;
-    border-radius: 30px;
+    border-radius: 15px;
     font-size: 21px;
     box-shadow: 1px 1px 5px rgb(188, 188, 188);
     opacity: 0.95;
@@ -137,9 +137,9 @@
 }
 
 
-@media (min-width: 701px) and (max-width: 899px) {
+@media (min-width: 721px) and (max-width: 899px) {
     .service-section a {
-        font-size: 18px;
+        font-size: 17px;
     }
     .services-title-eng {
         font-size: 30px;
@@ -150,9 +150,22 @@
   
 }
 
-@media (max-width: 700px) {
+@media (min-width: 501px) and (max-width: 720px) {
     .service-section a {
         font-size: 13px;
+    }
+    .services-title-eng {
+        font-size: 30px;
+    }
+    .services-title-chinese {
+        font-size: 20px;
+    }
+  
+}
+
+@media (max-width: 500px) {
+    .service-section a {
+        font-size: 10px;
     }
     .services-title-eng {
         font-size: 30px;
