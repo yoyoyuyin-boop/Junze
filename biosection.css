@@ -99,5 +99,10 @@
     .bio-pic {
         min-width: 200px;
     }
+
+    .name {
+        font-size: 15px;
+    }
+  
   
 }
