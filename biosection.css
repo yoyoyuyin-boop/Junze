@@ -8,6 +8,7 @@
     font-size: 15px;
     color: rgb(52, 52, 52);
     box-shadow: 8px 6px 5px rgb(188, 188, 188);
+    margin-bottom: 2%;
     
 }
 
@@ -113,7 +114,7 @@
     }
 
     .vert-line2 {
-        max-height: 300px;
+        max-height: 320px;
     }
 
     .bio-pic {

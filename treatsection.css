@@ -4,11 +4,12 @@
     justify-content: space-between;
     background-color: #fffef8;
     flex-direction: column;
-    height: 1000px;
+    height: 850px;
     font-size: 20.5px;
     color: rgb(52, 52, 52);
     box-shadow: 8px -6px 5px rgb(188, 188, 188);
     width: 100%;
+    margin-bottom: 2%;
 }
 
 
@@ -17,7 +18,7 @@
     display: flex;
     flex-direction: row;
     justify-content:center;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 2%;
     margin-right: 2%;
     border-bottom: 2px solid #413010;
@@ -47,7 +48,7 @@
 
 .treat-section-body-main {
     display:flex;
-    flex:4;
+    flex:6;
     height: auto;
     
     
@@ -301,7 +302,7 @@
 
 
     .treatment-section {
-        height: 700px;
+        height: 600px;
         margin-top: 5%;
     }
 
