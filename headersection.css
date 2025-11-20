@@ -138,9 +138,7 @@
     color: white;
     font-weight: 300;
 }
-.banner-right:hover {
-    cursor: pointer;
-}
+
 
 @media (max-width: 1000px) {
     .intro-section {
