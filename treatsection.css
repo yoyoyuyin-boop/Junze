@@ -112,9 +112,7 @@
 
 
 
-.treat-section-body::-webkit-scrollbar{
-    display: none;
-}
+
 
 .treat-section-body::scroll-button(right) {
     content: '>';
@@ -259,7 +257,7 @@
   
 
 
-@media (min-width: 600px) and (max-width: 799px) {
+@media (min-width: 660px) and (max-width: 799px) {
     
     .treat-chinese-text, .treat-eng-text {
        font-size: 16px;
@@ -277,7 +275,7 @@
   
 }
 
-@media (max-width: 599px) {
+@media (max-width: 659px) {
     
 
     .treat-chinese-text, .treat-eng-text {
@@ -287,10 +285,10 @@
    
 
     .treat-title-eng {
-        font-size: 30px;
+        font-size: 20px;
     }
     .treat-title-chinese {
-        font-size: 20px;
+        font-size: 12px;
     }
 
     .treat-section-body::scroll-button(right) {
